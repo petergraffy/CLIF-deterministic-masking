@@ -1,82 +1,97 @@
-# *CLIF Project Title*
+# CLIF Deterministic Masking Validation
 
-## CLIF VERSION 
+This repository validates a deterministic masking workflow for geographically resolved, federated CLIF analyses. The project is designed to support a JAMIA-style methods paper comparing deterministic offset masking against common alternatives for site-level release of aggregate ICU summaries.
 
-[major].[minor]
+## Project Aim
 
-## Objective
+We want to show that deterministic masking can preserve scientific usability better than common alternatives while still supporting distributed data sharing across sites. The validation framework compares four release methods:
 
-*Describe the project objective*
+- `det_offset`: deterministic positive offsets applied with external site-specific key fragments and central demasking
+- `suppress_lt10`: small-cell suppression using `<10`
+- `rand_unif_3`: bounded random perturbation of count cells
+- `state_coarsen`: geographic coarsening from county to state with post-coarsening `<10` suppression
 
-## Required CLIF tables and fields
+## Study Populations
 
-Please refer to the [CLIF data dictionary](https://clif-icu.com/data-dictionary), [CLIF Tools](https://clif-icu.com/tools), [ETL Guide](https://clif-icu.com/etl-guide), and [specific table contacts](https://github.com/clif-consortium/CLIF?tab=readme-ov-file#relational-clif) for more information on constructing the required tables and fields. 
+The site pipeline constructs three CLIF populations:
 
-*List all required tables for the project here, and provide a brief rationale for why they are required.*
+- `all_icu_adult`: all adult ICU hospitalizations
+- `sepsis_ase_icu`: adult ICU hospitalizations meeting the CLIFpy Adult Sepsis Event definition
+- `cardiac_arrest_poa_icu`: adult ICU hospitalizations with cardiac arrest present on admission
 
-Example:
-The following tables are required:
-1. **patient**: `patient_id`, `race_category`, `ethnicity_category`, `sex_category`
-2. **hospitalization**: `patient_id`, `hospitalization_id`, `admission_dttm`, `discharge_dttm`, `age_at_admission`
-3. **vitals**: `hospitalization_id`, `recorded_dttm`, `vital_category`, `vital_value`
-   - `vital_category` = 'heart_rate', 'resp_rate', 'sbp', 'dbp', 'map', 'resp_rate', 'spo2'
-4. **labs**: `hospitalization_id`, `lab_result_dttm`, `lab_category`, `lab_value`
-   - `lab_category` = 'lactate'
-5. **medication_admin_continuous**: `hospitalization_id`, `admin_dttm`, `med_name`, `med_category`, `med_dose`, `med_dose_unit`
-   - `med_category` = "norepinephrine", "epinephrine", "phenylephrine", "vasopressin", "dopamine", "angiotensin", "nicardipine", "nitroprusside", "clevidipine", "cisatracurium"
-6. **respiratory_support**: `hospitalization_id`, `recorded_dttm`, `device_category`, `mode_category`, `tracheostomy`, `fio2_set`, `lpm_set`, `resp_rate_set`, `peep_set`, `resp_rate_obs`
+## Required CLIF Tables
 
-For Python users, the [clifpy](https://common-longitudinal-icu-data-format.github.io/clifpy/) package provides essential utilities for working with CLIF data, including:
-- Key features: outlier handling, encounter stitching, wide data creation, and more
-- Advanced features: SOFA score computation, respiratory support waterfall, medication unit conversion, and more
+The current workflow uses these CLIF tables:
 
-See the [clifpy user guide](https://common-longitudinal-icu-data-format.github.io/clifpy/user-guide/) for detailed documentation.
+- `patient`
+- `hospitalization`
+- `adt`
+- `hospital_diagnosis`
+- `microbiology_culture`
+- `medication_admin_intermittent`
+- `medication_admin_continuous`
+- `labs`
+- `respiratory_support`
 
-## Cohort identification
-*Describe study cohort inclusion and exclusion criteria here*
+The sepsis cohort depends on `clifpy`, which reads the CLIF source tables directly during Adult Sepsis Event computation.
 
-## Expected Results
+## What The Site Produces
 
-*Describe the output of the analysis. The final project results should be saved in the [`output/final`](output/README.md) directory.*
+After a full run, the site produces:
 
-## Detailed Instructions for running the project
+- cohort parquet files in [output/intermediate/cohorts](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/intermediate/cohorts)
+- a site-level Table 1 summary in [output/final/tables](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/tables)
+- method-specific site export packages in [output/final/site_exports](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports)
 
-## 1. Update `config/config.json`
-Follow instructions in the [config/README.md](config/README.md) file for detailed configuration steps.
+The final export folders are:
 
-**Note: if using the `01_run_cohort_id_app.R` file, this step is not necessary as the app will create the config file for the user**
+- [det_offset](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports/det_offset)
+- [suppress_lt10](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports/suppress_lt10)
+- [rand_unif_3](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports/rand_unif_3)
+- [state_coarsen](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports/state_coarsen)
 
-## 2. Set up the project environment
+Transient logs and shared-summary exports are intentionally cleaned up and not retained as part of the finalized site deliverables.
 
-*Describe the steps to setup the project environment.*
+## Current Site-Facing Workflow
 
-Example for R:
-Run `00_renv_restore.R` in the [code](code/templates/R) to set up the project environment
+The site-facing code is a single entrypoint:
 
-Example for Python:
-
-**Preferred method using uv:**
-```
-uv init project-name
-cd project-name
-```
-Note: uv automatically creates virtual environments and manages dependencies. It generates required files like `uv.lock` for reproducible builds. For more details, see the [CLIF uv guide by Zewei Whiskey Liao](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF-data-huddles/blob/main/notes/uv-and-conv-commits.md).
-
-**Alternative method using python3:**
-```
-python3 -m venv .mobilization
-source .mobilization/bin/activate
-pip install -r requirements.txt 
+```bash
+./.venv/bin/python code/site_pipeline.py all
 ```
 
-## 3. Run code
+That command:
 
-Detailed instructions on the code workflow are provided in the [code directory](code/README.md)
+1. builds the three cohorts
+2. creates a site-level Table 1 summary
+3. creates all four release packages
 
-## Example Repositories
-* [CLIF Adult Sepsis Events](https://github.com/08wparker/CLIF_sepsis) for R
-* [CLIF Eligibility for mobilization](https://github.com/kaveriC/CLIF-eligibility-for-mobilization) for Python
-* [CLIF Variation in Ventilation](https://github.com/ingra107/clif_vent_variation)
----
+Additional details for site execution, environment setup, and key fragment download are in [code/README.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/code/README.md).
 
+## Key Fragment Architecture
 
+Deterministic masking uses external key fragments placed in [keys](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/keys). The current pipeline expects these fragment families:
+
+- `key_county_year_Fragment_*.csv`
+- `key_county_year_age_sex_Fragment_*.csv`
+- `key_year_age_sex_race_ethnicity_Fragment_*.csv`
+
+These fragments are matched automatically by filename. Rates are not demasked directly; they are blanked in released deterministic outputs for central recomputation after demasking.
+
+## Publication-Facing Outputs
+
+This repository is set up to support:
+
+- site-level baseline characterization via Table 1 outputs
+- method-specific export generation for each participating site
+- pooled coordinating-center evaluation of geographic fidelity, statistical fidelity, sparse-cell behavior, and reproducibility
+
+The main design and methods notes live in [docs](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/docs), including:
+
+- [formal_study_design.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/docs/formal_study_design.md)
+- [comparator_methods_spec.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/docs/comparator_methods_spec.md)
+- [export_table_spec.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/docs/export_table_spec.md)
+
+## Configuration
+
+Site-specific configuration lives in `config/config.json` and is ignored by Git. See [config/README.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/README.md) for required fields.

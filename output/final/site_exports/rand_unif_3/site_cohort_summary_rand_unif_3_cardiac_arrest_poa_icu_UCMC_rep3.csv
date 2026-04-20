@@ -1,0 +1,2 @@
+site_name,population_id,n_hospitalizations,n_patients,n_with_geo,pct_with_geo,admission_year_min,admission_year_max,death_n,mortality_pct,icu_los_hours_median,icu_los_hours_q3,prolonged_icu_los_n,prolonged_icu_los_pct
+UCMC,cardiac_arrest_poa_icu,1529,1520,1510,0.9875735775016351,2018,2024,978,0.6396337475474166,114.09166666666667,238.43333333333334,567,0.3708306082406802

@@ -1,0 +1,505 @@
+site_name,population_id,admit_year,age_band,sex_group,race_group,ethnicity_group,hospitalizations,deaths,mortality_pct
+UCMC,sepsis_ase_icu,2018,18-39,Female,Asian,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2018,18-39,Female,Black,Not Hispanic or Latino,41,8,0.1951219512195122
+UCMC,sepsis_ase_icu,2018,18-39,Female,Black,Unknown,2,2,1.0
+UCMC,sepsis_ase_icu,2018,18-39,Female,Other/Unknown,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2018,18-39,Female,Other/Unknown,Unknown,3,0,0.0
+UCMC,sepsis_ase_icu,2018,18-39,Female,White,Hispanic or Latino,6,2,0.3333333333333333
+UCMC,sepsis_ase_icu,2018,18-39,Female,White,Not Hispanic or Latino,18,3,0.16666666666666666
+UCMC,sepsis_ase_icu,2018,18-39,Male,Asian,Not Hispanic or Latino,5,3,0.6
+UCMC,sepsis_ase_icu,2018,18-39,Male,Black,Not Hispanic or Latino,59,10,0.1694915254237288
+UCMC,sepsis_ase_icu,2018,18-39,Male,Black,Unknown,2,3,1.5
+UCMC,sepsis_ase_icu,2018,18-39,Male,Other/Unknown,Hispanic or Latino,4,1,0.25
+UCMC,sepsis_ase_icu,2018,18-39,Male,Other/Unknown,Not Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2018,18-39,Male,Other/Unknown,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2018,18-39,Male,White,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2018,18-39,Male,White,Not Hispanic or Latino,23,3,0.13043478260869565
+UCMC,sepsis_ase_icu,2018,18-39,Male,White,Unknown,3,4,1.3333333333333333
+UCMC,sepsis_ase_icu,2018,40-64,Female,Asian,Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2018,40-64,Female,Asian,Not Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2018,40-64,Female,Black,Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2018,40-64,Female,Black,Not Hispanic or Latino,175,47,0.26857142857142857
+UCMC,sepsis_ase_icu,2018,40-64,Female,Black,Unknown,4,1,0.25
+UCMC,sepsis_ase_icu,2018,40-64,Female,NHPI,Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2018,40-64,Female,Other/Unknown,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2018,40-64,Female,Other/Unknown,Not Hispanic or Latino,8,2,0.25
+UCMC,sepsis_ase_icu,2018,40-64,Female,Other/Unknown,Unknown,3,3,1.0
+UCMC,sepsis_ase_icu,2018,40-64,Female,White,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2018,40-64,Female,White,Not Hispanic or Latino,38,12,0.3157894736842105
+UCMC,sepsis_ase_icu,2018,40-64,Male,Asian,Not Hispanic or Latino,8,0,0.0
+UCMC,sepsis_ase_icu,2018,40-64,Male,Black,Not Hispanic or Latino,168,54,0.32142857142857145
+UCMC,sepsis_ase_icu,2018,40-64,Male,Black,Unknown,5,0,0.0
+UCMC,sepsis_ase_icu,2018,40-64,Male,NHPI,Not Hispanic or Latino,4,2,0.5
+UCMC,sepsis_ase_icu,2018,40-64,Male,Other/Unknown,Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2018,40-64,Male,Other/Unknown,Not Hispanic or Latino,7,3,0.42857142857142855
+UCMC,sepsis_ase_icu,2018,40-64,Male,Other/Unknown,Unknown,16,13,0.8125
+UCMC,sepsis_ase_icu,2018,40-64,Male,White,Hispanic or Latino,9,0,0.0
+UCMC,sepsis_ase_icu,2018,40-64,Male,White,Not Hispanic or Latino,109,32,0.29357798165137616
+UCMC,sepsis_ase_icu,2018,40-64,Male,White,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Female,Asian,Not Hispanic or Latino,1,3,3.0
+UCMC,sepsis_ase_icu,2018,65-74,Female,Black,Not Hispanic or Latino,90,27,0.3
+UCMC,sepsis_ase_icu,2018,65-74,Female,Black,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Female,Other/Unknown,Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Female,Other/Unknown,Not Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Female,Other/Unknown,Unknown,0,3,
+UCMC,sepsis_ase_icu,2018,65-74,Female,White,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Female,White,Not Hispanic or Latino,49,10,0.20408163265306123
+UCMC,sepsis_ase_icu,2018,65-74,Female,White,Unknown,3,4,1.3333333333333333
+UCMC,sepsis_ase_icu,2018,65-74,Male,AIAN,Not Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2018,65-74,Male,Asian,Not Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Male,Black,Not Hispanic or Latino,89,23,0.25842696629213485
+UCMC,sepsis_ase_icu,2018,65-74,Male,Black,Unknown,5,0,0.0
+UCMC,sepsis_ase_icu,2018,65-74,Male,Other/Unknown,Hispanic or Latino,5,5,1.0
+UCMC,sepsis_ase_icu,2018,65-74,Male,Other/Unknown,Not Hispanic or Latino,7,3,0.42857142857142855
+UCMC,sepsis_ase_icu,2018,65-74,Male,Other/Unknown,Unknown,9,1,0.1111111111111111
+UCMC,sepsis_ase_icu,2018,65-74,Male,White,Not Hispanic or Latino,90,28,0.3111111111111111
+UCMC,sepsis_ase_icu,2018,65-74,Male,White,Unknown,0,3,
+UCMC,sepsis_ase_icu,2018,75+,Female,Asian,Not Hispanic or Latino,2,3,1.5
+UCMC,sepsis_ase_icu,2018,75+,Female,Black,Hispanic or Latino,0,4,
+UCMC,sepsis_ase_icu,2018,75+,Female,Black,Not Hispanic or Latino,91,28,0.3076923076923077
+UCMC,sepsis_ase_icu,2018,75+,Female,Black,Unknown,5,3,0.6
+UCMC,sepsis_ase_icu,2018,75+,Female,Other/Unknown,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2018,75+,Female,Other/Unknown,Not Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2018,75+,Female,Other/Unknown,Unknown,7,4,0.5714285714285714
+UCMC,sepsis_ase_icu,2018,75+,Female,White,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2018,75+,Female,White,Not Hispanic or Latino,28,7,0.25
+UCMC,sepsis_ase_icu,2018,75+,Male,Asian,Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2018,75+,Male,Asian,Not Hispanic or Latino,3,3,1.0
+UCMC,sepsis_ase_icu,2018,75+,Male,Black,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2018,75+,Male,Black,Not Hispanic or Latino,60,20,0.3333333333333333
+UCMC,sepsis_ase_icu,2018,75+,Male,Black,Unknown,0,0,
+UCMC,sepsis_ase_icu,2018,75+,Male,Other/Unknown,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2018,75+,Male,Other/Unknown,Unknown,8,6,0.75
+UCMC,sepsis_ase_icu,2018,75+,Male,White,Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2018,75+,Male,White,Not Hispanic or Latino,44,17,0.38636363636363635
+UCMC,sepsis_ase_icu,2019,18-39,Female,Asian,Not Hispanic or Latino,0,4,
+UCMC,sepsis_ase_icu,2019,18-39,Female,Black,Not Hispanic or Latino,56,16,0.2857142857142857
+UCMC,sepsis_ase_icu,2019,18-39,Female,Black,Unknown,1,3,3.0
+UCMC,sepsis_ase_icu,2019,18-39,Female,Other/Unknown,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2019,18-39,Female,Other/Unknown,Not Hispanic or Latino,3,3,1.0
+UCMC,sepsis_ase_icu,2019,18-39,Female,Other/Unknown,Unknown,0,0,
+UCMC,sepsis_ase_icu,2019,18-39,Female,White,Hispanic or Latino,6,4,0.6666666666666666
+UCMC,sepsis_ase_icu,2019,18-39,Female,White,Not Hispanic or Latino,17,4,0.23529411764705882
+UCMC,sepsis_ase_icu,2019,18-39,Male,Asian,Not Hispanic or Latino,4,1,0.25
+UCMC,sepsis_ase_icu,2019,18-39,Male,Black,Not Hispanic or Latino,76,13,0.17105263157894737
+UCMC,sepsis_ase_icu,2019,18-39,Male,Black,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2019,18-39,Male,NHPI,Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2019,18-39,Male,Other/Unknown,Hispanic or Latino,3,5,1.6666666666666667
+UCMC,sepsis_ase_icu,2019,18-39,Male,Other/Unknown,Not Hispanic or Latino,5,1,0.2
+UCMC,sepsis_ase_icu,2019,18-39,Male,Other/Unknown,Unknown,2,3,1.5
+UCMC,sepsis_ase_icu,2019,18-39,Male,White,Hispanic or Latino,7,2,0.2857142857142857
+UCMC,sepsis_ase_icu,2019,18-39,Male,White,Not Hispanic or Latino,25,7,0.28
+UCMC,sepsis_ase_icu,2019,40-64,Female,Asian,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Female,Black,Not Hispanic or Latino,174,50,0.28735632183908044
+UCMC,sepsis_ase_icu,2019,40-64,Female,Black,Unknown,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2019,40-64,Female,NHPI,Not Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2019,40-64,Female,Other/Unknown,Hispanic or Latino,15,6,0.4
+UCMC,sepsis_ase_icu,2019,40-64,Female,Other/Unknown,Not Hispanic or Latino,8,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Female,Other/Unknown,Unknown,3,7,2.3333333333333335
+UCMC,sepsis_ase_icu,2019,40-64,Female,White,Hispanic or Latino,7,2,0.2857142857142857
+UCMC,sepsis_ase_icu,2019,40-64,Female,White,Not Hispanic or Latino,54,20,0.37037037037037035
+UCMC,sepsis_ase_icu,2019,40-64,Female,White,Unknown,0,1,
+UCMC,sepsis_ase_icu,2019,40-64,Male,AIAN,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2019,40-64,Male,AIAN,Not Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Male,Asian,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2019,40-64,Male,Asian,Not Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Male,Asian,Unknown,0,3,
+UCMC,sepsis_ase_icu,2019,40-64,Male,Black,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Male,Black,Not Hispanic or Latino,207,59,0.28502415458937197
+UCMC,sepsis_ase_icu,2019,40-64,Male,Black,Unknown,3,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Male,Other/Unknown,Hispanic or Latino,21,6,0.2857142857142857
+UCMC,sepsis_ase_icu,2019,40-64,Male,Other/Unknown,Not Hispanic or Latino,11,0,0.0
+UCMC,sepsis_ase_icu,2019,40-64,Male,Other/Unknown,Unknown,15,7,0.4666666666666667
+UCMC,sepsis_ase_icu,2019,40-64,Male,White,Hispanic or Latino,9,8,0.8888888888888888
+UCMC,sepsis_ase_icu,2019,40-64,Male,White,Not Hispanic or Latino,111,19,0.17117117117117117
+UCMC,sepsis_ase_icu,2019,65-74,Female,Asian,Not Hispanic or Latino,10,1,0.1
+UCMC,sepsis_ase_icu,2019,65-74,Female,Black,Not Hispanic or Latino,114,36,0.3157894736842105
+UCMC,sepsis_ase_icu,2019,65-74,Female,Black,Unknown,4,3,0.75
+UCMC,sepsis_ase_icu,2019,65-74,Female,Other/Unknown,Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2019,65-74,Female,Other/Unknown,Not Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2019,65-74,Female,Other/Unknown,Unknown,4,5,1.25
+UCMC,sepsis_ase_icu,2019,65-74,Female,White,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2019,65-74,Female,White,Not Hispanic or Latino,43,11,0.2558139534883721
+UCMC,sepsis_ase_icu,2019,65-74,Female,White,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2019,65-74,Male,Asian,Not Hispanic or Latino,1,5,5.0
+UCMC,sepsis_ase_icu,2019,65-74,Male,Black,Not Hispanic or Latino,124,31,0.25
+UCMC,sepsis_ase_icu,2019,65-74,Male,Black,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2019,65-74,Male,Other/Unknown,Not Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2019,65-74,Male,Other/Unknown,Unknown,7,6,0.8571428571428571
+UCMC,sepsis_ase_icu,2019,65-74,Male,White,Hispanic or Latino,6,4,0.6666666666666666
+UCMC,sepsis_ase_icu,2019,65-74,Male,White,Not Hispanic or Latino,82,25,0.3048780487804878
+UCMC,sepsis_ase_icu,2019,75+,Female,Asian,Not Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2019,75+,Female,Black,Not Hispanic or Latino,92,37,0.40217391304347827
+UCMC,sepsis_ase_icu,2019,75+,Female,NHPI,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2019,75+,Female,Other/Unknown,Hispanic or Latino,1,3,3.0
+UCMC,sepsis_ase_icu,2019,75+,Female,Other/Unknown,Not Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2019,75+,Female,Other/Unknown,Unknown,5,3,0.6
+UCMC,sepsis_ase_icu,2019,75+,Female,White,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2019,75+,Female,White,Not Hispanic or Latino,28,11,0.39285714285714285
+UCMC,sepsis_ase_icu,2019,75+,Male,Asian,Not Hispanic or Latino,4,1,0.25
+UCMC,sepsis_ase_icu,2019,75+,Male,Black,Not Hispanic or Latino,67,18,0.26865671641791045
+UCMC,sepsis_ase_icu,2019,75+,Male,Other/Unknown,Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2019,75+,Male,Other/Unknown,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2019,75+,Male,Other/Unknown,Unknown,6,3,0.5
+UCMC,sepsis_ase_icu,2019,75+,Male,White,Hispanic or Latino,1,1,1.0
+UCMC,sepsis_ase_icu,2019,75+,Male,White,Not Hispanic or Latino,36,12,0.3333333333333333
+UCMC,sepsis_ase_icu,2019,75+,Male,White,Unknown,0,1,
+UCMC,sepsis_ase_icu,2020,18-39,Female,Asian,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2020,18-39,Female,Black,Not Hispanic or Latino,59,12,0.2033898305084746
+UCMC,sepsis_ase_icu,2020,18-39,Female,NHPI,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2020,18-39,Female,Other/Unknown,Hispanic or Latino,7,4,0.5714285714285714
+UCMC,sepsis_ase_icu,2020,18-39,Female,Other/Unknown,Not Hispanic or Latino,3,4,1.3333333333333333
+UCMC,sepsis_ase_icu,2020,18-39,Female,Other/Unknown,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2020,18-39,Female,White,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2020,18-39,Female,White,Not Hispanic or Latino,29,4,0.13793103448275862
+UCMC,sepsis_ase_icu,2020,18-39,Male,AIAN,Hispanic or Latino,2,1,0.5
+UCMC,sepsis_ase_icu,2020,18-39,Male,AIAN,Not Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2020,18-39,Male,Asian,Not Hispanic or Latino,6,2,0.3333333333333333
+UCMC,sepsis_ase_icu,2020,18-39,Male,Black,Not Hispanic or Latino,109,16,0.14678899082568808
+UCMC,sepsis_ase_icu,2020,18-39,Male,NHPI,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2020,18-39,Male,Other/Unknown,Hispanic or Latino,12,6,0.5
+UCMC,sepsis_ase_icu,2020,18-39,Male,Other/Unknown,Not Hispanic or Latino,10,1,0.1
+UCMC,sepsis_ase_icu,2020,18-39,Male,Other/Unknown,Unknown,3,2,0.6666666666666666
+UCMC,sepsis_ase_icu,2020,18-39,Male,White,Hispanic or Latino,7,2,0.2857142857142857
+UCMC,sepsis_ase_icu,2020,18-39,Male,White,Not Hispanic or Latino,23,3,0.13043478260869565
+UCMC,sepsis_ase_icu,2020,40-64,Female,Asian,Not Hispanic or Latino,5,4,0.8
+UCMC,sepsis_ase_icu,2020,40-64,Female,Black,Hispanic or Latino,2,1,0.5
+UCMC,sepsis_ase_icu,2020,40-64,Female,Black,Not Hispanic or Latino,200,66,0.33
+UCMC,sepsis_ase_icu,2020,40-64,Female,Black,Unknown,6,3,0.5
+UCMC,sepsis_ase_icu,2020,40-64,Female,Other/Unknown,Hispanic or Latino,5,3,0.6
+UCMC,sepsis_ase_icu,2020,40-64,Female,Other/Unknown,Not Hispanic or Latino,9,3,0.3333333333333333
+UCMC,sepsis_ase_icu,2020,40-64,Female,Other/Unknown,Unknown,7,9,1.2857142857142858
+UCMC,sepsis_ase_icu,2020,40-64,Female,White,Hispanic or Latino,4,3,0.75
+UCMC,sepsis_ase_icu,2020,40-64,Female,White,Not Hispanic or Latino,46,14,0.30434782608695654
+UCMC,sepsis_ase_icu,2020,40-64,Male,AIAN,Not Hispanic or Latino,4,3,0.75
+UCMC,sepsis_ase_icu,2020,40-64,Male,Asian,Not Hispanic or Latino,7,0,0.0
+UCMC,sepsis_ase_icu,2020,40-64,Male,Black,Not Hispanic or Latino,259,72,0.277992277992278
+UCMC,sepsis_ase_icu,2020,40-64,Male,Black,Unknown,0,0,
+UCMC,sepsis_ase_icu,2020,40-64,Male,Other/Unknown,Hispanic or Latino,23,11,0.4782608695652174
+UCMC,sepsis_ase_icu,2020,40-64,Male,Other/Unknown,Not Hispanic or Latino,13,8,0.6153846153846154
+UCMC,sepsis_ase_icu,2020,40-64,Male,Other/Unknown,Unknown,5,5,1.0
+UCMC,sepsis_ase_icu,2020,40-64,Male,White,Hispanic or Latino,9,3,0.3333333333333333
+UCMC,sepsis_ase_icu,2020,40-64,Male,White,Not Hispanic or Latino,97,35,0.36082474226804123
+UCMC,sepsis_ase_icu,2020,40-64,Male,White,Unknown,1,2,2.0
+UCMC,sepsis_ase_icu,2020,65-74,Female,Asian,Not Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2020,65-74,Female,Black,Not Hispanic or Latino,140,56,0.4
+UCMC,sepsis_ase_icu,2020,65-74,Female,NHPI,Not Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2020,65-74,Female,Other/Unknown,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2020,65-74,Female,Other/Unknown,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2020,65-74,Female,Other/Unknown,Unknown,0,4,
+UCMC,sepsis_ase_icu,2020,65-74,Female,White,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2020,65-74,Female,White,Not Hispanic or Latino,30,17,0.5666666666666667
+UCMC,sepsis_ase_icu,2020,65-74,Female,White,Unknown,0,0,
+UCMC,sepsis_ase_icu,2020,65-74,Male,Asian,Not Hispanic or Latino,9,4,0.4444444444444444
+UCMC,sepsis_ase_icu,2020,65-74,Male,Black,Not Hispanic or Latino,148,53,0.3581081081081081
+UCMC,sepsis_ase_icu,2020,65-74,Male,Black,Unknown,2,1,0.5
+UCMC,sepsis_ase_icu,2020,65-74,Male,Other/Unknown,Hispanic or Latino,6,1,0.16666666666666666
+UCMC,sepsis_ase_icu,2020,65-74,Male,Other/Unknown,Not Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2020,65-74,Male,Other/Unknown,Unknown,5,6,1.2
+UCMC,sepsis_ase_icu,2020,65-74,Male,White,Hispanic or Latino,7,2,0.2857142857142857
+UCMC,sepsis_ase_icu,2020,65-74,Male,White,Not Hispanic or Latino,71,25,0.352112676056338
+UCMC,sepsis_ase_icu,2020,65-74,Male,White,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2020,75+,Female,Asian,Not Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2020,75+,Female,Black,Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2020,75+,Female,Black,Not Hispanic or Latino,121,37,0.30578512396694213
+UCMC,sepsis_ase_icu,2020,75+,Female,Black,Unknown,0,2,
+UCMC,sepsis_ase_icu,2020,75+,Female,Other/Unknown,Hispanic or Latino,8,1,0.125
+UCMC,sepsis_ase_icu,2020,75+,Female,Other/Unknown,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2020,75+,Female,Other/Unknown,Unknown,1,0,0.0
+UCMC,sepsis_ase_icu,2020,75+,Female,White,Not Hispanic or Latino,24,9,0.375
+UCMC,sepsis_ase_icu,2020,75+,Male,Asian,Not Hispanic or Latino,9,1,0.1111111111111111
+UCMC,sepsis_ase_icu,2020,75+,Male,Black,Not Hispanic or Latino,71,31,0.43661971830985913
+UCMC,sepsis_ase_icu,2020,75+,Male,Black,Unknown,4,3,0.75
+UCMC,sepsis_ase_icu,2020,75+,Male,Other/Unknown,Hispanic or Latino,4,1,0.25
+UCMC,sepsis_ase_icu,2020,75+,Male,Other/Unknown,Not Hispanic or Latino,1,4,4.0
+UCMC,sepsis_ase_icu,2020,75+,Male,Other/Unknown,Unknown,5,4,0.8
+UCMC,sepsis_ase_icu,2020,75+,Male,White,Hispanic or Latino,0,1,
+UCMC,sepsis_ase_icu,2020,75+,Male,White,Not Hispanic or Latino,52,24,0.46153846153846156
+UCMC,sepsis_ase_icu,2021,18-39,Female,AIAN,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2021,18-39,Female,Asian,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2021,18-39,Female,Asian,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2021,18-39,Female,Black,Not Hispanic or Latino,51,11,0.21568627450980393
+UCMC,sepsis_ase_icu,2021,18-39,Female,Black,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2021,18-39,Female,Other/Unknown,Hispanic or Latino,9,3,0.3333333333333333
+UCMC,sepsis_ase_icu,2021,18-39,Female,Other/Unknown,Unknown,2,2,1.0
+UCMC,sepsis_ase_icu,2021,18-39,Female,White,Not Hispanic or Latino,27,4,0.14814814814814814
+UCMC,sepsis_ase_icu,2021,18-39,Male,Asian,Not Hispanic or Latino,2,4,2.0
+UCMC,sepsis_ase_icu,2021,18-39,Male,Black,Not Hispanic or Latino,135,21,0.15555555555555556
+UCMC,sepsis_ase_icu,2021,18-39,Male,Black,Unknown,1,2,2.0
+UCMC,sepsis_ase_icu,2021,18-39,Male,Other/Unknown,Hispanic or Latino,14,2,0.14285714285714285
+UCMC,sepsis_ase_icu,2021,18-39,Male,Other/Unknown,Not Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2021,18-39,Male,Other/Unknown,Unknown,3,0,0.0
+UCMC,sepsis_ase_icu,2021,18-39,Male,White,Hispanic or Latino,5,4,0.8
+UCMC,sepsis_ase_icu,2021,18-39,Male,White,Not Hispanic or Latino,30,6,0.2
+UCMC,sepsis_ase_icu,2021,40-64,Female,Asian,Not Hispanic or Latino,7,2,0.2857142857142857
+UCMC,sepsis_ase_icu,2021,40-64,Female,Black,Hispanic or Latino,0,1,
+UCMC,sepsis_ase_icu,2021,40-64,Female,Black,Not Hispanic or Latino,201,59,0.2935323383084577
+UCMC,sepsis_ase_icu,2021,40-64,Female,Black,Unknown,4,1,0.25
+UCMC,sepsis_ase_icu,2021,40-64,Female,NHPI,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2021,40-64,Female,Other/Unknown,Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2021,40-64,Female,Other/Unknown,Not Hispanic or Latino,13,8,0.6153846153846154
+UCMC,sepsis_ase_icu,2021,40-64,Female,Other/Unknown,Unknown,4,6,1.5
+UCMC,sepsis_ase_icu,2021,40-64,Female,White,Hispanic or Latino,8,0,0.0
+UCMC,sepsis_ase_icu,2021,40-64,Female,White,Not Hispanic or Latino,44,18,0.4090909090909091
+UCMC,sepsis_ase_icu,2021,40-64,Female,White,Unknown,6,0,0.0
+UCMC,sepsis_ase_icu,2021,40-64,Male,Asian,Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2021,40-64,Male,Asian,Not Hispanic or Latino,9,1,0.1111111111111111
+UCMC,sepsis_ase_icu,2021,40-64,Male,Black,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2021,40-64,Male,Black,Not Hispanic or Latino,233,87,0.37339055793991416
+UCMC,sepsis_ase_icu,2021,40-64,Male,Black,Unknown,0,3,
+UCMC,sepsis_ase_icu,2021,40-64,Male,Other/Unknown,Hispanic or Latino,27,17,0.6296296296296297
+UCMC,sepsis_ase_icu,2021,40-64,Male,Other/Unknown,Not Hispanic or Latino,17,3,0.17647058823529413
+UCMC,sepsis_ase_icu,2021,40-64,Male,Other/Unknown,Unknown,16,12,0.75
+UCMC,sepsis_ase_icu,2021,40-64,Male,White,Hispanic or Latino,6,3,0.5
+UCMC,sepsis_ase_icu,2021,40-64,Male,White,Not Hispanic or Latino,113,40,0.35398230088495575
+UCMC,sepsis_ase_icu,2021,40-64,Male,White,Unknown,0,3,
+UCMC,sepsis_ase_icu,2021,65-74,Female,Asian,Not Hispanic or Latino,0,5,
+UCMC,sepsis_ase_icu,2021,65-74,Female,Black,Not Hispanic or Latino,134,54,0.40298507462686567
+UCMC,sepsis_ase_icu,2021,65-74,Female,Other/Unknown,Hispanic or Latino,5,3,0.6
+UCMC,sepsis_ase_icu,2021,65-74,Female,Other/Unknown,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2021,65-74,Female,Other/Unknown,Unknown,6,0,0.0
+UCMC,sepsis_ase_icu,2021,65-74,Female,White,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2021,65-74,Female,White,Not Hispanic or Latino,38,11,0.2894736842105263
+UCMC,sepsis_ase_icu,2021,65-74,Male,Asian,Not Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2021,65-74,Male,Black,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2021,65-74,Male,Black,Not Hispanic or Latino,146,46,0.3150684931506849
+UCMC,sepsis_ase_icu,2021,65-74,Male,Other/Unknown,Hispanic or Latino,12,7,0.5833333333333334
+UCMC,sepsis_ase_icu,2021,65-74,Male,Other/Unknown,Not Hispanic or Latino,6,1,0.16666666666666666
+UCMC,sepsis_ase_icu,2021,65-74,Male,White,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2021,65-74,Male,White,Not Hispanic or Latino,62,26,0.41935483870967744
+UCMC,sepsis_ase_icu,2021,75+,Female,Asian,Not Hispanic or Latino,2,1,0.5
+UCMC,sepsis_ase_icu,2021,75+,Female,Black,Not Hispanic or Latino,120,58,0.48333333333333334
+UCMC,sepsis_ase_icu,2021,75+,Female,Black,Unknown,2,1,0.5
+UCMC,sepsis_ase_icu,2021,75+,Female,Other/Unknown,Hispanic or Latino,2,4,2.0
+UCMC,sepsis_ase_icu,2021,75+,Female,Other/Unknown,Not Hispanic or Latino,2,2,1.0
+UCMC,sepsis_ase_icu,2021,75+,Female,White,Hispanic or Latino,2,1,0.5
+UCMC,sepsis_ase_icu,2021,75+,Female,White,Not Hispanic or Latino,33,13,0.3939393939393939
+UCMC,sepsis_ase_icu,2021,75+,Male,AIAN,Not Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2021,75+,Male,Asian,Not Hispanic or Latino,5,4,0.8
+UCMC,sepsis_ase_icu,2021,75+,Male,Black,Not Hispanic or Latino,86,32,0.37209302325581395
+UCMC,sepsis_ase_icu,2021,75+,Male,Other/Unknown,Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2021,75+,Male,Other/Unknown,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2021,75+,Male,Other/Unknown,Unknown,2,4,2.0
+UCMC,sepsis_ase_icu,2021,75+,Male,White,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2021,75+,Male,White,Not Hispanic or Latino,32,12,0.375
+UCMC,sepsis_ase_icu,2021,75+,Male,White,Unknown,1,0,0.0
+UCMC,sepsis_ase_icu,2022,18-39,Female,Asian,Not Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2022,18-39,Female,Black,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2022,18-39,Female,Black,Not Hispanic or Latino,58,11,0.1896551724137931
+UCMC,sepsis_ase_icu,2022,18-39,Female,Black,Unknown,0,0,
+UCMC,sepsis_ase_icu,2022,18-39,Female,Other/Unknown,Hispanic or Latino,5,0,0.0
+UCMC,sepsis_ase_icu,2022,18-39,Female,Other/Unknown,Not Hispanic or Latino,3,4,1.3333333333333333
+UCMC,sepsis_ase_icu,2022,18-39,Female,Other/Unknown,Unknown,4,1,0.25
+UCMC,sepsis_ase_icu,2022,18-39,Female,White,Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2022,18-39,Female,White,Not Hispanic or Latino,28,5,0.17857142857142858
+UCMC,sepsis_ase_icu,2022,18-39,Male,Asian,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2022,18-39,Male,Black,Not Hispanic or Latino,95,17,0.17894736842105263
+UCMC,sepsis_ase_icu,2022,18-39,Male,Other/Unknown,Hispanic or Latino,15,6,0.4
+UCMC,sepsis_ase_icu,2022,18-39,Male,Other/Unknown,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2022,18-39,Male,Other/Unknown,Unknown,11,7,0.6363636363636364
+UCMC,sepsis_ase_icu,2022,18-39,Male,White,Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2022,18-39,Male,White,Not Hispanic or Latino,14,7,0.5
+UCMC,sepsis_ase_icu,2022,40-64,Female,Asian,Not Hispanic or Latino,7,3,0.42857142857142855
+UCMC,sepsis_ase_icu,2022,40-64,Female,Black,Not Hispanic or Latino,196,56,0.2857142857142857
+UCMC,sepsis_ase_icu,2022,40-64,Female,Other/Unknown,Hispanic or Latino,13,6,0.46153846153846156
+UCMC,sepsis_ase_icu,2022,40-64,Female,Other/Unknown,Not Hispanic or Latino,8,4,0.5
+UCMC,sepsis_ase_icu,2022,40-64,Female,Other/Unknown,Unknown,4,1,0.25
+UCMC,sepsis_ase_icu,2022,40-64,Female,White,Hispanic or Latino,7,3,0.42857142857142855
+UCMC,sepsis_ase_icu,2022,40-64,Female,White,Not Hispanic or Latino,73,23,0.3150684931506849
+UCMC,sepsis_ase_icu,2022,40-64,Female,White,Unknown,2,3,1.5
+UCMC,sepsis_ase_icu,2022,40-64,Male,Asian,Not Hispanic or Latino,9,0,0.0
+UCMC,sepsis_ase_icu,2022,40-64,Male,Black,Not Hispanic or Latino,262,76,0.2900763358778626
+UCMC,sepsis_ase_icu,2022,40-64,Male,Black,Unknown,0,0,
+UCMC,sepsis_ase_icu,2022,40-64,Male,Other/Unknown,Hispanic or Latino,21,4,0.19047619047619047
+UCMC,sepsis_ase_icu,2022,40-64,Male,Other/Unknown,Not Hispanic or Latino,14,2,0.14285714285714285
+UCMC,sepsis_ase_icu,2022,40-64,Male,Other/Unknown,Unknown,22,14,0.6363636363636364
+UCMC,sepsis_ase_icu,2022,40-64,Male,White,Hispanic or Latino,9,0,0.0
+UCMC,sepsis_ase_icu,2022,40-64,Male,White,Not Hispanic or Latino,98,32,0.32653061224489793
+UCMC,sepsis_ase_icu,2022,65-74,Female,Asian,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2022,65-74,Female,Asian,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2022,65-74,Female,Black,Not Hispanic or Latino,125,48,0.384
+UCMC,sepsis_ase_icu,2022,65-74,Female,Other/Unknown,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2022,65-74,Female,Other/Unknown,Not Hispanic or Latino,8,4,0.5
+UCMC,sepsis_ase_icu,2022,65-74,Female,Other/Unknown,Unknown,8,6,0.75
+UCMC,sepsis_ase_icu,2022,65-74,Female,White,Hispanic or Latino,6,4,0.6666666666666666
+UCMC,sepsis_ase_icu,2022,65-74,Female,White,Not Hispanic or Latino,28,13,0.4642857142857143
+UCMC,sepsis_ase_icu,2022,65-74,Female,White,Unknown,6,3,0.5
+UCMC,sepsis_ase_icu,2022,65-74,Male,AIAN,Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2022,65-74,Male,Asian,Not Hispanic or Latino,3,3,1.0
+UCMC,sepsis_ase_icu,2022,65-74,Male,Black,Not Hispanic or Latino,123,46,0.37398373983739835
+UCMC,sepsis_ase_icu,2022,65-74,Male,Other/Unknown,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2022,65-74,Male,Other/Unknown,Not Hispanic or Latino,4,6,1.5
+UCMC,sepsis_ase_icu,2022,65-74,Male,Other/Unknown,Unknown,12,5,0.4166666666666667
+UCMC,sepsis_ase_icu,2022,65-74,Male,White,Hispanic or Latino,5,5,1.0
+UCMC,sepsis_ase_icu,2022,65-74,Male,White,Not Hispanic or Latino,83,28,0.3373493975903614
+UCMC,sepsis_ase_icu,2022,65-74,Male,White,Unknown,0,3,
+UCMC,sepsis_ase_icu,2022,75+,Female,Asian,Not Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2022,75+,Female,Black,Not Hispanic or Latino,109,43,0.3944954128440367
+UCMC,sepsis_ase_icu,2022,75+,Female,Black,Unknown,0,0,
+UCMC,sepsis_ase_icu,2022,75+,Female,Other/Unknown,Hispanic or Latino,1,3,3.0
+UCMC,sepsis_ase_icu,2022,75+,Female,Other/Unknown,Not Hispanic or Latino,7,4,0.5714285714285714
+UCMC,sepsis_ase_icu,2022,75+,Female,Other/Unknown,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2022,75+,Female,White,Hispanic or Latino,1,5,5.0
+UCMC,sepsis_ase_icu,2022,75+,Female,White,Not Hispanic or Latino,27,15,0.5555555555555556
+UCMC,sepsis_ase_icu,2022,75+,Male,Asian,Not Hispanic or Latino,3,2,0.6666666666666666
+UCMC,sepsis_ase_icu,2022,75+,Male,Black,Not Hispanic or Latino,92,55,0.5978260869565217
+UCMC,sepsis_ase_icu,2022,75+,Male,Black,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2022,75+,Male,NHPI,Not Hispanic or Latino,4,2,0.5
+UCMC,sepsis_ase_icu,2022,75+,Male,Other/Unknown,Hispanic or Latino,4,5,1.25
+UCMC,sepsis_ase_icu,2022,75+,Male,Other/Unknown,Not Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2022,75+,Male,Other/Unknown,Unknown,5,2,0.4
+UCMC,sepsis_ase_icu,2022,75+,Male,White,Not Hispanic or Latino,39,15,0.38461538461538464
+UCMC,sepsis_ase_icu,2023,18-39,Female,Asian,Not Hispanic or Latino,3,2,0.6666666666666666
+UCMC,sepsis_ase_icu,2023,18-39,Female,Black,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2023,18-39,Female,Black,Not Hispanic or Latino,53,12,0.22641509433962265
+UCMC,sepsis_ase_icu,2023,18-39,Female,Other/Unknown,Hispanic or Latino,5,2,0.4
+UCMC,sepsis_ase_icu,2023,18-39,Female,Other/Unknown,Not Hispanic or Latino,4,1,0.25
+UCMC,sepsis_ase_icu,2023,18-39,Female,Other/Unknown,Unknown,3,3,1.0
+UCMC,sepsis_ase_icu,2023,18-39,Female,White,Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2023,18-39,Female,White,Not Hispanic or Latino,21,3,0.14285714285714285
+UCMC,sepsis_ase_icu,2023,18-39,Female,White,Unknown,0,2,
+UCMC,sepsis_ase_icu,2023,18-39,Male,Asian,Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2023,18-39,Male,Asian,Not Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2023,18-39,Male,Black,Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2023,18-39,Male,Black,Not Hispanic or Latino,86,17,0.19767441860465115
+UCMC,sepsis_ase_icu,2023,18-39,Male,Black,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2023,18-39,Male,Other/Unknown,Hispanic or Latino,23,7,0.30434782608695654
+UCMC,sepsis_ase_icu,2023,18-39,Male,Other/Unknown,Not Hispanic or Latino,11,5,0.45454545454545453
+UCMC,sepsis_ase_icu,2023,18-39,Male,Other/Unknown,Unknown,21,4,0.19047619047619047
+UCMC,sepsis_ase_icu,2023,18-39,Male,White,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2023,18-39,Male,White,Not Hispanic or Latino,32,7,0.21875
+UCMC,sepsis_ase_icu,2023,40-64,Female,AIAN,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2023,40-64,Female,Asian,Not Hispanic or Latino,7,1,0.14285714285714285
+UCMC,sepsis_ase_icu,2023,40-64,Female,Black,Not Hispanic or Latino,182,61,0.33516483516483514
+UCMC,sepsis_ase_icu,2023,40-64,Female,Black,Unknown,3,0,0.0
+UCMC,sepsis_ase_icu,2023,40-64,Female,Other/Unknown,Hispanic or Latino,9,6,0.6666666666666666
+UCMC,sepsis_ase_icu,2023,40-64,Female,Other/Unknown,Not Hispanic or Latino,13,2,0.15384615384615385
+UCMC,sepsis_ase_icu,2023,40-64,Female,Other/Unknown,Unknown,20,10,0.5
+UCMC,sepsis_ase_icu,2023,40-64,Female,White,Hispanic or Latino,2,1,0.5
+UCMC,sepsis_ase_icu,2023,40-64,Female,White,Not Hispanic or Latino,54,16,0.2962962962962963
+UCMC,sepsis_ase_icu,2023,40-64,Female,White,Unknown,5,0,0.0
+UCMC,sepsis_ase_icu,2023,40-64,Male,Asian,Not Hispanic or Latino,6,1,0.16666666666666666
+UCMC,sepsis_ase_icu,2023,40-64,Male,Black,Hispanic or Latino,0,3,
+UCMC,sepsis_ase_icu,2023,40-64,Male,Black,Not Hispanic or Latino,219,55,0.2511415525114155
+UCMC,sepsis_ase_icu,2023,40-64,Male,Black,Unknown,4,0,0.0
+UCMC,sepsis_ase_icu,2023,40-64,Male,NHPI,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2023,40-64,Male,NHPI,Not Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2023,40-64,Male,Other/Unknown,Hispanic or Latino,16,3,0.1875
+UCMC,sepsis_ase_icu,2023,40-64,Male,Other/Unknown,Not Hispanic or Latino,11,7,0.6363636363636364
+UCMC,sepsis_ase_icu,2023,40-64,Male,Other/Unknown,Unknown,33,15,0.45454545454545453
+UCMC,sepsis_ase_icu,2023,40-64,Male,White,Hispanic or Latino,12,6,0.5
+UCMC,sepsis_ase_icu,2023,40-64,Male,White,Not Hispanic or Latino,80,17,0.2125
+UCMC,sepsis_ase_icu,2023,40-64,Male,White,Unknown,2,5,2.5
+UCMC,sepsis_ase_icu,2023,65-74,Female,AIAN,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2023,65-74,Female,Asian,Not Hispanic or Latino,6,0,0.0
+UCMC,sepsis_ase_icu,2023,65-74,Female,Black,Not Hispanic or Latino,116,43,0.3706896551724138
+UCMC,sepsis_ase_icu,2023,65-74,Female,Black,Unknown,5,1,0.2
+UCMC,sepsis_ase_icu,2023,65-74,Female,Other/Unknown,Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2023,65-74,Female,Other/Unknown,Unknown,10,5,0.5
+UCMC,sepsis_ase_icu,2023,65-74,Female,White,Hispanic or Latino,3,4,1.3333333333333333
+UCMC,sepsis_ase_icu,2023,65-74,Female,White,Not Hispanic or Latino,50,18,0.36
+UCMC,sepsis_ase_icu,2023,65-74,Female,White,Unknown,2,4,2.0
+UCMC,sepsis_ase_icu,2023,65-74,Male,Asian,Not Hispanic or Latino,5,3,0.6
+UCMC,sepsis_ase_icu,2023,65-74,Male,Black,Not Hispanic or Latino,113,44,0.3893805309734513
+UCMC,sepsis_ase_icu,2023,65-74,Male,NHPI,Hispanic or Latino,4,3,0.75
+UCMC,sepsis_ase_icu,2023,65-74,Male,Other/Unknown,Hispanic or Latino,3,2,0.6666666666666666
+UCMC,sepsis_ase_icu,2023,65-74,Male,Other/Unknown,Not Hispanic or Latino,6,4,0.6666666666666666
+UCMC,sepsis_ase_icu,2023,65-74,Male,Other/Unknown,Unknown,16,10,0.625
+UCMC,sepsis_ase_icu,2023,65-74,Male,White,Hispanic or Latino,6,6,1.0
+UCMC,sepsis_ase_icu,2023,65-74,Male,White,Not Hispanic or Latino,82,28,0.34146341463414637
+UCMC,sepsis_ase_icu,2023,65-74,Male,White,Unknown,3,0,0.0
+UCMC,sepsis_ase_icu,2023,75+,Female,Asian,Not Hispanic or Latino,2,3,1.5
+UCMC,sepsis_ase_icu,2023,75+,Female,Black,Not Hispanic or Latino,118,56,0.4745762711864407
+UCMC,sepsis_ase_icu,2023,75+,Female,Other/Unknown,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2023,75+,Female,Other/Unknown,Unknown,4,5,1.25
+UCMC,sepsis_ase_icu,2023,75+,Female,White,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2023,75+,Female,White,Not Hispanic or Latino,35,15,0.42857142857142855
+UCMC,sepsis_ase_icu,2023,75+,Male,AIAN,Not Hispanic or Latino,2,4,2.0
+UCMC,sepsis_ase_icu,2023,75+,Male,Asian,Hispanic or Latino,1,2,2.0
+UCMC,sepsis_ase_icu,2023,75+,Male,Asian,Not Hispanic or Latino,10,2,0.2
+UCMC,sepsis_ase_icu,2023,75+,Male,Black,Not Hispanic or Latino,69,27,0.391304347826087
+UCMC,sepsis_ase_icu,2023,75+,Male,Other/Unknown,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2023,75+,Male,Other/Unknown,Not Hispanic or Latino,4,3,0.75
+UCMC,sepsis_ase_icu,2023,75+,Male,Other/Unknown,Unknown,5,7,1.4
+UCMC,sepsis_ase_icu,2023,75+,Male,White,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2023,75+,Male,White,Not Hispanic or Latino,36,13,0.3611111111111111
+UCMC,sepsis_ase_icu,2023,75+,Male,White,Unknown,0,1,
+UCMC,sepsis_ase_icu,2024,18-39,Female,Asian,Not Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2024,18-39,Female,Black,Not Hispanic or Latino,42,5,0.11904761904761904
+UCMC,sepsis_ase_icu,2024,18-39,Female,Other/Unknown,Hispanic or Latino,8,1,0.125
+UCMC,sepsis_ase_icu,2024,18-39,Female,Other/Unknown,Not Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2024,18-39,Female,Other/Unknown,Unknown,9,4,0.4444444444444444
+UCMC,sepsis_ase_icu,2024,18-39,Female,White,Hispanic or Latino,0,4,
+UCMC,sepsis_ase_icu,2024,18-39,Female,White,Not Hispanic or Latino,19,3,0.15789473684210525
+UCMC,sepsis_ase_icu,2024,18-39,Female,White,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2024,18-39,Male,Asian,Not Hispanic or Latino,1,0,0.0
+UCMC,sepsis_ase_icu,2024,18-39,Male,Asian,Unknown,3,0,0.0
+UCMC,sepsis_ase_icu,2024,18-39,Male,Black,Not Hispanic or Latino,95,21,0.22105263157894736
+UCMC,sepsis_ase_icu,2024,18-39,Male,Black,Unknown,1,0,0.0
+UCMC,sepsis_ase_icu,2024,18-39,Male,Other/Unknown,Hispanic or Latino,11,1,0.09090909090909091
+UCMC,sepsis_ase_icu,2024,18-39,Male,Other/Unknown,Not Hispanic or Latino,5,4,0.8
+UCMC,sepsis_ase_icu,2024,18-39,Male,Other/Unknown,Unknown,14,8,0.5714285714285714
+UCMC,sepsis_ase_icu,2024,18-39,Male,White,Hispanic or Latino,5,6,1.2
+UCMC,sepsis_ase_icu,2024,18-39,Male,White,Not Hispanic or Latino,23,10,0.43478260869565216
+UCMC,sepsis_ase_icu,2024,40-64,Female,AIAN,Not Hispanic or Latino,4,3,0.75
+UCMC,sepsis_ase_icu,2024,40-64,Female,Asian,Not Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2024,40-64,Female,Black,Not Hispanic or Latino,162,56,0.345679012345679
+UCMC,sepsis_ase_icu,2024,40-64,Female,Black,Unknown,4,3,0.75
+UCMC,sepsis_ase_icu,2024,40-64,Female,Other/Unknown,Hispanic or Latino,9,2,0.2222222222222222
+UCMC,sepsis_ase_icu,2024,40-64,Female,Other/Unknown,Not Hispanic or Latino,3,1,0.3333333333333333
+UCMC,sepsis_ase_icu,2024,40-64,Female,Other/Unknown,Unknown,33,10,0.30303030303030304
+UCMC,sepsis_ase_icu,2024,40-64,Female,White,Hispanic or Latino,11,2,0.18181818181818182
+UCMC,sepsis_ase_icu,2024,40-64,Female,White,Not Hispanic or Latino,61,20,0.32786885245901637
+UCMC,sepsis_ase_icu,2024,40-64,Female,White,Unknown,5,2,0.4
+UCMC,sepsis_ase_icu,2024,40-64,Male,AIAN,Not Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2024,40-64,Male,Asian,Not Hispanic or Latino,9,5,0.5555555555555556
+UCMC,sepsis_ase_icu,2024,40-64,Male,Asian,Unknown,0,2,
+UCMC,sepsis_ase_icu,2024,40-64,Male,Black,Hispanic or Latino,8,0,0.0
+UCMC,sepsis_ase_icu,2024,40-64,Male,Black,Not Hispanic or Latino,228,70,0.30701754385964913
+UCMC,sepsis_ase_icu,2024,40-64,Male,Black,Unknown,8,0,0.0
+UCMC,sepsis_ase_icu,2024,40-64,Male,Other/Unknown,Hispanic or Latino,20,8,0.4
+UCMC,sepsis_ase_icu,2024,40-64,Male,Other/Unknown,Not Hispanic or Latino,13,6,0.46153846153846156
+UCMC,sepsis_ase_icu,2024,40-64,Male,Other/Unknown,Unknown,32,18,0.5625
+UCMC,sepsis_ase_icu,2024,40-64,Male,White,Hispanic or Latino,19,3,0.15789473684210525
+UCMC,sepsis_ase_icu,2024,40-64,Male,White,Not Hispanic or Latino,84,19,0.2261904761904762
+UCMC,sepsis_ase_icu,2024,40-64,Male,White,Unknown,2,2,1.0
+UCMC,sepsis_ase_icu,2024,65-74,Female,Asian,Not Hispanic or Latino,7,1,0.14285714285714285
+UCMC,sepsis_ase_icu,2024,65-74,Female,Black,Not Hispanic or Latino,127,46,0.36220472440944884
+UCMC,sepsis_ase_icu,2024,65-74,Female,Black,Unknown,2,0,0.0
+UCMC,sepsis_ase_icu,2024,65-74,Female,NHPI,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2024,65-74,Female,Other/Unknown,Hispanic or Latino,8,2,0.25
+UCMC,sepsis_ase_icu,2024,65-74,Female,Other/Unknown,Not Hispanic or Latino,5,2,0.4
+UCMC,sepsis_ase_icu,2024,65-74,Female,Other/Unknown,Unknown,10,4,0.4
+UCMC,sepsis_ase_icu,2024,65-74,Female,White,Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2024,65-74,Female,White,Not Hispanic or Latino,40,12,0.3
+UCMC,sepsis_ase_icu,2024,65-74,Female,White,Unknown,1,1,1.0
+UCMC,sepsis_ase_icu,2024,65-74,Male,AIAN,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2024,65-74,Male,Asian,Not Hispanic or Latino,7,3,0.42857142857142855
+UCMC,sepsis_ase_icu,2024,65-74,Male,Black,Not Hispanic or Latino,137,50,0.36496350364963503
+UCMC,sepsis_ase_icu,2024,65-74,Male,Black,Unknown,5,1,0.2
+UCMC,sepsis_ase_icu,2024,65-74,Male,Other/Unknown,Hispanic or Latino,3,6,2.0
+UCMC,sepsis_ase_icu,2024,65-74,Male,Other/Unknown,Not Hispanic or Latino,14,7,0.5
+UCMC,sepsis_ase_icu,2024,65-74,Male,Other/Unknown,Unknown,13,10,0.7692307692307693
+UCMC,sepsis_ase_icu,2024,65-74,Male,White,Hispanic or Latino,0,2,
+UCMC,sepsis_ase_icu,2024,65-74,Male,White,Not Hispanic or Latino,60,22,0.36666666666666664
+UCMC,sepsis_ase_icu,2024,65-74,Male,White,Unknown,0,0,
+UCMC,sepsis_ase_icu,2024,75+,Female,Asian,Not Hispanic or Latino,7,1,0.14285714285714285
+UCMC,sepsis_ase_icu,2024,75+,Female,Black,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2024,75+,Female,Black,Not Hispanic or Latino,116,53,0.45689655172413796
+UCMC,sepsis_ase_icu,2024,75+,Female,NHPI,Hispanic or Latino,3,3,1.0
+UCMC,sepsis_ase_icu,2024,75+,Female,NHPI,Not Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2024,75+,Female,Other/Unknown,Hispanic or Latino,3,0,0.0
+UCMC,sepsis_ase_icu,2024,75+,Female,Other/Unknown,Not Hispanic or Latino,3,2,0.6666666666666666
+UCMC,sepsis_ase_icu,2024,75+,Female,Other/Unknown,Unknown,8,8,1.0
+UCMC,sepsis_ase_icu,2024,75+,Female,White,Hispanic or Latino,0,0,
+UCMC,sepsis_ase_icu,2024,75+,Female,White,Not Hispanic or Latino,25,7,0.28
+UCMC,sepsis_ase_icu,2024,75+,Male,Asian,Hispanic or Latino,0,4,
+UCMC,sepsis_ase_icu,2024,75+,Male,Asian,Not Hispanic or Latino,2,0,0.0
+UCMC,sepsis_ase_icu,2024,75+,Male,Black,Not Hispanic or Latino,87,40,0.45977011494252873
+UCMC,sepsis_ase_icu,2024,75+,Male,Black,Unknown,0,0,
+UCMC,sepsis_ase_icu,2024,75+,Male,Other/Unknown,Hispanic or Latino,7,4,0.5714285714285714
+UCMC,sepsis_ase_icu,2024,75+,Male,Other/Unknown,Not Hispanic or Latino,4,2,0.5
+UCMC,sepsis_ase_icu,2024,75+,Male,Other/Unknown,Unknown,12,4,0.3333333333333333
+UCMC,sepsis_ase_icu,2024,75+,Male,White,Hispanic or Latino,4,0,0.0
+UCMC,sepsis_ase_icu,2024,75+,Male,White,Not Hispanic or Latino,51,17,0.3333333333333333
+UCMC,sepsis_ase_icu,2024,75+,Male,White,Unknown,6,6,1.0

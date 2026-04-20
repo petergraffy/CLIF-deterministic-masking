@@ -41,7 +41,7 @@ All cells with counts below a fixed threshold are suppressed before release. To 
 
 ### Fixed Parameters
 
-1. primary suppression threshold: less than 11
+1. primary suppression threshold: less than 10
 2. complementary suppression: applied whenever a suppressed cell could be solved exactly from row or column totals
 
 ### Intended Strengths
@@ -128,7 +128,7 @@ Sensitivity analyses should vary a small number of parameters to check robustnes
 ### Suppression Sensitivity
 
 1. threshold less than 6
-2. threshold less than 11
+2. threshold less than 10
 
 ### Random Perturbation Sensitivity
 

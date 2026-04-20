@@ -14,5 +14,6 @@ Recommended fields for this repository:
 7. `site_timezone`: local site timezone for reference metadata
 
 The current code will use `tables_path` if present, otherwise it will fall back to `clif_dir`.
+The current code requires `output_dir` to be repo-relative and will refuse to write outside the repository root.
 
 Note: the `.gitignore` file in this directory ensures that the information in the config file is not pushed to github remote repository. 
