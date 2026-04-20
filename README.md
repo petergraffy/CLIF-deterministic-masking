@@ -93,4 +93,4 @@ The main design and methods notes live in [docs](/Users/saborpete/Desktop/Peter/
 
 ## Configuration
 
-Site-specific configuration lives in `config/config.json` and is ignored by Git. See [config/README.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/README.md) and [config/config_template.json](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/config_template.json) for the required structure.
+Site-specific configuration lives in `config/config.json` and is ignored by Git. The required fields are just `site_name`, `repo`, `tables_path`, and `file_type`. See [config/README.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/README.md) and [config/config_template.json](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/config_template.json).

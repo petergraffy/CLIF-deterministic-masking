@@ -87,16 +87,13 @@ def ensure_within_repo(path: Path) -> Path:
 
 
 def resolve_output_root(config: dict) -> Path:
-    output_root = Path(config.get("output_dir", "output"))
-    if output_root.is_absolute():
-        raise ValueError("Config field 'output_dir' must be repo-relative.")
-    return ensure_within_repo(ROOT / output_root)
+    return ensure_within_repo(ROOT / "output")
 
 
 def resolve_tables_path(config: dict) -> Path:
-    tables_value = config.get("tables_path") or config.get("clif_dir")
+    tables_value = config.get("tables_path")
     if not tables_value:
-        raise KeyError("Config must include either 'tables_path' or 'clif_dir'.")
+        raise KeyError("Config must include 'tables_path'.")
     return Path(tables_value).expanduser().resolve()
 
 

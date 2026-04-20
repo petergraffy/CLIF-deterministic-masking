@@ -15,11 +15,10 @@ That full run does three things:
 ## Before You Start
 
 1. Create `config/config.json` from [config/config_template.json](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/config_template.json)
-2. Point `tables_path` or `clif_dir` to your local CLIF tables
+2. Point `tables_path` to your local CLIF tables
 3. Set `file_type` to `parquet` or `csv`
-4. Keep `output_dir` repo-relative, usually `output`
 
-The pipeline refuses to write outside the repository.
+The pipeline writes outputs to the standard repo [output](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output) folder automatically.
 
 ## Environment Setup
 
@@ -125,4 +124,4 @@ The code removes transient logs after cohorting and deletes `output/intermediate
 
 - If `det_offset` fails, check that all three fragment files are in `keys/`
 - If the sepsis cohort fails, confirm `clifpy` is installed in your active environment
-- If the script complains about paths, make sure `output_dir` is repo-relative and `tables_path` points to the CLIF source tables
+- If the script complains about paths, make sure `tables_path` points to the CLIF source tables
