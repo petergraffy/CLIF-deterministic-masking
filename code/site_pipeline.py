@@ -417,6 +417,18 @@ def remove_transient_logs(config: dict) -> None:
     log_root.rmdir()
 
 
+def remove_intermediate_outputs(config: dict) -> None:
+    intermediate_root = resolve_output_root(config) / "intermediate"
+    if not intermediate_root.exists():
+        return
+    for path in sorted(intermediate_root.rglob("*"), reverse=True):
+        if path.is_file() or path.is_symlink():
+            path.unlink()
+        elif path.is_dir():
+            path.rmdir()
+    intermediate_root.rmdir()
+
+
 def prepare_common_fields(df: pd.DataFrame, site_name: str, cohort_name: str) -> pd.DataFrame:
     out = df.copy()
     out["site_name"] = site_name
@@ -897,6 +909,7 @@ def run_releases(config: dict, methods: list[str]) -> None:
         run_random_release(config, summary_cache)
     if "state_coarsen" in methods:
         run_state_coarsened_release(config, summary_cache)
+    remove_intermediate_outputs(config)
 
 
 def run_site_table1(config: dict) -> None:
