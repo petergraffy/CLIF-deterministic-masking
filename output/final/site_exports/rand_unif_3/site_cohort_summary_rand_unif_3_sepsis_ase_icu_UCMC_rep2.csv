@@ -1,2 +1,0 @@
-site_name,population_id,n_hospitalizations,n_patients,n_with_geo,pct_with_geo,admission_year_min,admission_year_max,death_n,mortality_pct,icu_los_hours_median,icu_los_hours_q3,prolonged_icu_los_n,prolonged_icu_los_pct
-UCMC,sepsis_ase_icu,11494,10430,11376,0.9897337741430311,2018,2024,3777,0.3286062293370454,138.95,338.2125,5100,0.4437097616147555
