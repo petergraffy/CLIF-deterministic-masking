@@ -1,5 +1,9 @@
 {
-    "site_name": "Your_Site_Name",
-    "tables_path": "/path/to/tables/",
-    "file_type": "csv/parquet/fst"
+  "site_name": "Your_Site_Name",
+  "repo": "/absolute/path/to/CLIF-deterministic-masking",
+  "tables_path": "/absolute/path/to/clif_2.1_tables",
+  "clif_dir": "/absolute/path/to/clif_2.1_tables",
+  "file_type": "parquet",
+  "output_dir": "output",
+  "site_timezone": "America/Chicago"
 }

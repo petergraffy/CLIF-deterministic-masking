@@ -6,6 +6,9 @@
 .DS_Store
 *.Rproj
 .Rproj.user
+.venv/
+__pycache__/
+*.pyc
 
 ## ignore the renv initialization file
 initialize_renv.R
@@ -13,10 +16,13 @@ initialize_renv.R
 ## ignore filtered CLIF tables stored as Rdata
 *.RData
 
-#ignore source CLIF_ files 
+# ignore local CLIF source tables if they ever appear in-repo
 CLIF_*.parquet
 CLIF_*.csv
 CLIF_*.fst
+clif_*.parquet
+clif_*.csv
+clif_*.fst
 
 #ignore the identifier app
 CLIF_cohort_identifier*
@@ -30,3 +36,15 @@ initialize_renv.R
 # ignore pdf reports and rendered html
 *.pdf
 *.html
+
+# ignore local config with site-specific paths
+config/config.json
+
+# ignore patient-level or site-level intermediate outputs
+output/intermediate/**
+output/logs/**
+
+# keep top-level output documentation and final aggregate examples
+!output/README.md
+!output/final/
+!output/final/**
