@@ -28,7 +28,7 @@ Recommended local environment:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install pandas pyarrow clifpy tabulate
+pip install pandas pyarrow clifpy
 ```
 
 `clifpy` is required because the sepsis cohort uses the Adult Sepsis Event workflow.
@@ -57,12 +57,14 @@ The wildcard suffix can differ by site. The code discovers the fragment automati
 
 Use the masking website as follows:
 
-1. open the deterministic masking key website supplied by the coordinating center
-2. select this project’s configured key sets
-3. select your site
-4. download the returned fragment CSV files
-5. move those CSV files into the local [keys](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/keys) folder
-6. confirm the folder now contains the three fragment families listed above
+1. go to [clif-icu.com](https://clif-icu.com)
+2. log in with your CLIF account
+3. open the `Secure Masking` section
+4. select this project’s configured key sets
+5. select your site
+6. download the returned fragment CSV files
+7. move those CSV files into the local [keys](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/keys) folder
+8. confirm the folder now contains the three fragment families listed above
 
 Do not rename the files beyond the website’s default fragment naming convention unless the names still match the required patterns.
 
@@ -114,11 +116,10 @@ Supported method ids:
 
 After a full run, the main deliverables are:
 
-- cohort files in [output/intermediate/cohorts](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/intermediate/cohorts)
 - site Table 1 files in [output/final/tables](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/tables)
 - site export packages in [output/final/site_exports](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports)
 
-The code removes transient logs after cohorting, and it does not retain shared-summary export files as part of the finalized site package.
+The code removes transient logs after cohorting and deletes `output/intermediate` after release generation, so the finalized site package is what remains under [output/final](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final).
 
 ## Troubleshooting
 

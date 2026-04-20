@@ -39,7 +39,6 @@ The sepsis cohort depends on `clifpy`, which reads the CLIF source tables direct
 
 After a full run, the site produces:
 
-- cohort parquet files in [output/intermediate/cohorts](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/intermediate/cohorts)
 - a site-level Table 1 summary in [output/final/tables](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/tables)
 - method-specific site export packages in [output/final/site_exports](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/output/final/site_exports)
 
@@ -94,4 +93,4 @@ The main design and methods notes live in [docs](/Users/saborpete/Desktop/Peter/
 
 ## Configuration
 
-Site-specific configuration lives in `config/config.json` and is ignored by Git. See [config/README.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/README.md) for required fields.
+Site-specific configuration lives in `config/config.json` and is ignored by Git. See [config/README.md](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/README.md) and [config/config_template.json](/Users/saborpete/Desktop/Peter/Postdoc/CLIF-deterministic-masking/config/config_template.json) for the required structure.
