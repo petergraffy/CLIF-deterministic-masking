@@ -44,6 +44,9 @@ config/config.json
 output/intermediate/**
 output/logs/**
 
+# ignore local key template copies, but keep actual key fragment CSVs visible
+keys/templates/**
+
 # keep top-level output documentation and final aggregate examples
 !output/README.md
 !output/final/
